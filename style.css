@@ -477,64 +477,8 @@ nav{
     }
 }
 
-@media(max-width: 500px){
-    .index-main-container .second-content-container{
-        margin-top: 40px;
-    }
-    .index-main-container .second-content-container .info-container{
-       margin: 20px 0 20px 0;
-    }
 
-    .index-main-container .third-content-container{
-        width: 100%;
-        width: 350px;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .index-main-container .third-content-container .box1 img{
-        margin-left: 12px;
-    }
-
-    .index-main-container .third-content-container .box1 img,
-    .index-main-container .third-content-container .box2 img,
-    .index-main-container .third-content-container .box3 img{
-        width: 350px;
-        flex-direction: column;
-        gap: 12px;
-    }
-    .index-main-container .quarter-content-container .cards-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 400px);
-        place-content: center;
-        margin-top: 70px;
-        text-align: center;
-
-        row-gap: 12px;
-    }
-
-
-    .index-main-container .quarter-content-container .card-container{
-        width: 290px;
-        height: auto;
-        background-color: white;
-        border-radius: 0px;
-        box-shadow: 1em 0  1em rgb(204, 204, 204);
-    }
-    .index-main-container .quarter-content-container .card-container:hover{
-    
-        background-color: rgb(233, 227, 227);
-        transition: .3s;
-    }
-    .index-main-container .quarter-content-container .card-container img{
-        width: 250px;
-        height: auto;
-        display: block;
-        margin: 10px auto;
-        border-radius: 10px ;
-    }
-}
-@media(max-width: 480px){
+@media(max-width: 520px){
     .index-main-container {
         width: 100%;
         min-width: 375px;
@@ -562,11 +506,11 @@ nav{
     }
     .index-main-container .third-content-container .box1{
         margin-right: 14px;
-        width: 370px;
+        width: 360px;
 
     }
     .index-main-container .third-content-container .box1 a img{
-        width: 350px;
+        width: 340px;
         transition: none ;
     }
 
@@ -575,16 +519,16 @@ nav{
     }
 
     .index-main-container .third-content-container .box2{
-        width: 370px;
+        width: 360px;
     }
     .index-main-container .third-content-container .box2 .accesorios{
-        width: 370px;
+        width: 360px;
         overflow: hidden;
         margin-bottom: 10px;
         text-align: center;
     }
     .index-main-container .third-content-container .box2 .accesorios img{
-        width: 350px;
+        width: 340px;
         transition: none ;
     }
     .index-main-container .third-content-container .box2 .accesorios img:hover{
@@ -592,12 +536,12 @@ nav{
     }
     
     .index-main-container .third-content-container .box2 .remeras{
-        width: 370px;
+        width: 360px;
         overflow: hidden;
         text-align: center;
     }
     .index-main-container .third-content-container .box2 .remeras img{
-        width: 350px;
+        width: 340px;
         transition: none ;
     }
     .index-main-container .third-content-container .box2 .remeras img:hover{
