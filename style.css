@@ -505,7 +505,7 @@ nav{
         flex-direction: column;
     }
     .index-main-container .third-content-container .box1{
-        margin-right: 14px;
+        margin-right: 12px;
         width: 360px;
 
     }
@@ -564,7 +564,7 @@ nav{
 
     .index-main-container .quarter-content-container .cards-container{
         display: grid;
-        grid-template-columns: repeat(auto-fill, 400px);
+        grid-template-columns: repeat(auto-fill, 370px);
         place-content: center;
         margin-top: 70px;
         text-align: center;
