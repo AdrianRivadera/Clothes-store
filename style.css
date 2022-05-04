@@ -258,7 +258,7 @@ nav{
 }
 .index-main-container .second-content-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 440px);
+    grid-template-columns: repeat(auto-fill, 375px);
     place-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -463,14 +463,14 @@ nav{
     .index-main-container .third-content-container .box1 img,
     .index-main-container .third-content-container .box2 img,
     .index-main-container .third-content-container .box3 img{
-        width: 400px;
-        max-width: 400px;
+        width: 375px;
+        max-width: 375px;
         flex-direction: column;
         gap: 12px;
     }
     .index-main-container .quarter-content-container .cards-container{
         display: grid;
-        grid-template-columns: repeat(auto-fill, 440px);
+        grid-template-columns: repeat(auto-fill, 375px);
         place-content: center;
         margin-top: 70px;
         row-gap: 12px;
@@ -487,6 +487,7 @@ nav{
 
     .index-main-container .third-content-container{
         width: 100%;
+        width: 350px;
         flex-direction: column;
         gap: 10px;
     }
@@ -499,7 +500,6 @@ nav{
     .index-main-container .third-content-container .box2 img,
     .index-main-container .third-content-container .box3 img{
         width: 350px;
-        max-width: 350px;
         flex-direction: column;
         gap: 12px;
     }
@@ -549,24 +549,75 @@ nav{
        margin: 20px 0 20px 0;
     }
 
+
+
+
+
+
     .index-main-container .third-content-container{
         width: 100%;
+        height: auto;
+        display: flex;
         flex-direction: column;
-        gap: 10px;
     }
+    .index-main-container .third-content-container .box1{
+        margin-right: 14px;
+        width: 370px;
 
-    .index-main-container .third-content-container .box1 img{
-        margin-left: 12px;
     }
-
-    .index-main-container .third-content-container .box1 img,
-    .index-main-container .third-content-container .box2 img,
-    .index-main-container .third-content-container .box3 img{
+    .index-main-container .third-content-container .box1 a img{
         width: 350px;
-        max-width: 350px;
-        flex-direction: column;
-        gap: 12px;
+        transition: none ;
     }
+
+    .index-main-container .third-content-container .box1 img:hover{
+        transform: none;
+    }
+
+    .index-main-container .third-content-container .box2{
+        width: 370px;
+    }
+    .index-main-container .third-content-container .box2 .accesorios{
+        width: 370px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .index-main-container .third-content-container .box2 .accesorios img{
+        width: 350px;
+        transition: none ;
+    }
+    .index-main-container .third-content-container .box2 .accesorios img:hover{
+        transform: none;
+    }
+    
+    .index-main-container .third-content-container .box2 .remeras{
+        width: 370px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .index-main-container .third-content-container .box2 .remeras img{
+        width: 350px;
+        transition: none ;
+    }
+    .index-main-container .third-content-container .box2 .remeras img:hover{
+        transform: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .index-main-container .quarter-content-container .cards-container{
         display: grid;
         grid-template-columns: repeat(auto-fill, 400px);
