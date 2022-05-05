@@ -258,7 +258,7 @@ nav{
 }
 .index-main-container .second-content-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 375px);
+    grid-template-columns: repeat(auto-fill, 350px);
     place-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -939,7 +939,7 @@ footer .ola{
 
 @media(max-width: 620px){
     .buy-total-main-container{
-        margin-top: 90px;
+        margin-top: 40px;
     }
     .buy-total-main-container .card-container{
             width: 400px;
