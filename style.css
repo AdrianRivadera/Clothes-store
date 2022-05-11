@@ -994,7 +994,7 @@ footer .ola{
     margin-bottom: 12px;
     margin-top: 12px;
 }
-.login-main-container .enter-contraseña{
+.login-main-container .enter-contrasenia{
     width: 100%;
     height: 40px;
     background-color: rgb(219, 221, 221);
@@ -1003,12 +1003,13 @@ footer .ola{
     align-items: center;
     padding: 12px;
 }
-.login-main-container .enter-contraseña p{
+.login-main-container .enter-contrasenia p{
     font-size: 1.8rem;   
 }
 .login-main-container .ingresar{
     width: 100%;
     height: 60px;
+    font-size: 2.4rem;
     background-color: #3e991d;
     border-radius: 12px;
     display: flex;
@@ -1017,10 +1018,6 @@ footer .ola{
     padding: 12px;
     margin-top: 22px;
     cursor: pointer;
-}
-.login-main-container .ingresar p{
-    font-size: 2rem;
-    color: white;
 }
 .login-main-container .olvidaste{
     width: 100%;

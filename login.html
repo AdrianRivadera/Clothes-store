@@ -92,21 +92,24 @@
     </header>
     <main class="login-main-container">
         <div class="card-container">
-            <div class="email">
-                <p>Ingrese su email</p>
-            </div>
-            <div class="enter-email">
-                <p>emailejemplo@gmail.com</p>
-            </div>
-            <div class="contraseña">
-                <p>Ingrese su contraseña</p>
-            </div>
-            <div class="enter-contraseña">
-                <p>**************</p>
-            </div>
-            <div class="ingresar">
-                <p>Ingresar</p>
-            </div>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label email">Ingresa tu Email</label>
+                  <input type="email" class="form-control enter-email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text fs-4">Nunca compartiremos su correo electrónico con nadie más.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label contraseña">Ingresa tu Password</label>
+                  <input type="password" class="form-control enter-contrasenia" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary ingresar">Ingresar</button>
+            </form>
+
+
+
+
+
+
             <div class="olvidaste">
                 <p>¿Olvidaste tu contraseña?</p>
             </div>
