@@ -1,0 +1,102 @@
+.buy-total-main-container{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    .card-container{
+        width: 500px;
+        h2{
+            font-size: 4rem;
+            font-weight: 400;
+            margin-bottom: 12px; 
+        }
+        .info-total{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(219, 221, 221);
+            border-radius: 20px;
+            justify-content: space-between;
+            padding: 12px;
+            margin-bottom: 12px;
+            .articulos-info{
+                p{
+                    font-size: 1.8rem;
+                }
+            }
+            .total{
+                line-height: 44px;
+                p{
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                }
+            }
+        }
+        .articulo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .prenda{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                img{
+                    width: 70px;
+                    max-width: 70px;
+                    object-fit: cover;
+                    margin-right: 10px;
+                }
+                p{
+                    font-size: 1.8rem;
+                    width: max-content;
+                }
+            }
+            .prenda-precio{
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                }
+            }
+        }
+        .continuar{
+            width: 100%;
+            margin-top: 16px;
+            height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            background-color: #46AA23;
+            p{
+                color: white;
+                margin: auto;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+        .continuar:hover{
+            transition: .4s;
+            background-color: #3e991d;
+        }
+    }
+}
+
+
+@media(max-width: 620px){
+    .buy-total-main-container{
+        margin-top: 40px;
+        .card-container{
+            width: 400px;
+            h2{
+                font-size: $font-size-middle
+            }
+        }
+    }
+}
+
+@media(max-width: 420px){
+    .buy-total-main-container .card-container{
+        width: 300px;
+}
+}

@@ -303,7 +303,6 @@ nav{
 }
 .index-main-container .third-content-container .box1 img{
     width: 100%;
-    
     transition: .6s ease-in-out ;
 }
 .index-main-container .third-content-container .box1 img:hover{
@@ -568,7 +567,6 @@ nav{
         place-content: center;
         margin-top: 70px;
         text-align: center;
-
         row-gap: 12px;
     }
 
@@ -581,7 +579,7 @@ nav{
         box-shadow: 1em 0  1em rgb(204, 204, 204);
     }
     .index-main-container .quarter-content-container .card-container:hover{
-    
+
         background-color: rgb(233, 227, 227);
         transition: .3s;
     }
