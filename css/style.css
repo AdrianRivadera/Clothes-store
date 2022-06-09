@@ -68,16 +68,8 @@ header .main-container-header .container-header .container-nav nav ul li {
 }
 header .main-container-header .container-header .container-nav nav ul li a {
   color: black;
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-decoration: none;
-}
-header .main-container-header .container-header .container-nav nav ul li a .buy {
-  width: 25px;
-  height: auto;
-}
-header .main-container-header .container-header .container-nav nav ul li a .user {
-  width: 30px;
-  height: auto;
 }
 header .main-container-header .container-category {
   background-color: black;
